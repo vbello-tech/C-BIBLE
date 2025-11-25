@@ -34,40 +34,45 @@ Installation
     pip install -r requirements.txt
     ```
    
+4. Make the project executable from termiunal.
+   ```bash
+    python -m pip install -e .
+    ```
+   
 Commands
 ---------------
 
 1. Welcome message.
     ```bash
-    python bible.py cbible
+    cbible cbible
     ```
 
 2. Request a bible passage.
     ```bash
-    python bible.py request
+    cbible request
     ```
    This prompts you to type in the Book, chapter and verse you want.
 
 3. Find a bible passage.
     ```bash
-    python bible.py find job 3 16
+    cbible find job 3 16
     ```
    ```bash
-    python bible.py find job 3 16-20
+    cbible find job 3 16-20
     ```
    ```bash
-    python bible.py find job 3
+    cbible find job 3
     ```
    
 4. Find a bible passage for specific version.
     ```bash
-    python bible.py find -v ESV job 3 16
+    cbible find -v ESV job 3 16
     ```
    ```bash
-    python bible.py find -v ESV job 3 16-20
+    cbible find -v ESV job 3 16-20
     ```
    ```bash
-    python bible.py find -v ESV job 3
+    cbible find -v ESV job 3
     ```
 
 Available Bible Versions

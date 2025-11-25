@@ -1,0 +1,9 @@
+-e git+ssh://git@github.com/vbello-tech/C-BIBLE.git@90c546c03d7736c35fbd44eaf198f358a8c6b2d6#egg=cbible
+certifi==2025.11.12
+charset-normalizer==3.4.4
+click==8.3.1
+idna==3.11
+requests==2.32.5
+setuptools==69.0.3
+urllib3==2.5.0
+wheel==0.42.0

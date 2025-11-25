@@ -1,0 +1,9 @@
+README.md
+bible.py
+pyproject.toml
+cbible.egg-info/PKG-INFO
+cbible.egg-info/SOURCES.txt
+cbible.egg-info/dependency_links.txt
+cbible.egg-info/entry_points.txt
+cbible.egg-info/requires.txt
+cbible.egg-info/top_level.txt

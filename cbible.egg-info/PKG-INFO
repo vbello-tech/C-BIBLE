@@ -1,0 +1,102 @@
+Metadata-Version: 2.4
+Name: cbible
+Version: 0.1.0
+Summary: A command Line interface Bible.
+Author-email: Vbello-tech <vbellotech@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1.3
+
+# C-BIBLE
+
+A command Line interface Bible. 
+Defaults to KJV version.
+
+Project Stack
+------------------
+
+-   Python
+-   Click
+
+
+Installation
+------------
+
+1. Clone the repository: First, you will need to clone the Homemix repository to your local machine. This can be done using the following command in your terminal or command prompt:
+    ```bash
+    git clone https://github.com/vbello-tech/C-BIBLE.git
+    ```
+2. Create a virtual environment: It is recommended to work with a virtual environment to keep the dependencies for this project separate from other projects on your system. To create a virtual environment, run the following command:
+    ```bash
+    python -m venv venv
+    ```
+    Activate the virtual environment by running the following command:
+    ```bash
+    source venv/bin/activate (for Mac or Linux)
+    ```
+
+    ```bash
+    source venv\Scripts\activate (for Windows)
+    ```
+3. Install dependencies: Next, you will need to install the dependencies required for the project. These dependencies are listed in the requirements.txt file. To install them, run the following command:
+    ```bash
+    pip install -r requirements.txt
+    ```
+   
+4. Make the project executable from termiunal.
+   ```bash
+    python -m pip install -e .
+    ```
+   
+Commands
+---------------
+
+1. Welcome message.
+    ```bash
+    cbible cbible
+    ```
+
+2. Request a bible passage.
+    ```bash
+    cbible request
+    ```
+   This prompts you to type in the Book, chapter and verse you want.
+
+3. Find a bible passage.
+    ```bash
+    cbible find job 3 16
+    ```
+   ```bash
+    cbible find job 3 16-20
+    ```
+   ```bash
+    cbible find job 3
+    ```
+   
+4. Find a bible passage for specific version.
+    ```bash
+    cbible find -v ESV job 3 16
+    ```
+   ```bash
+    cbible find -v ESV job 3 16-20
+    ```
+   ```bash
+    cbible find -v ESV job 3
+    ```
+
+Available Bible Versions
+---------------
+1. KJV 
+2. ESV
+3. ISV
+4. AKJV
+5. NIV
+6. NKJV
+7. NLT
+8. NRSV
+
+
+Todo
+------------
+- Word search.
+- Concordance.
+- Crossreference.

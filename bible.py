@@ -4,7 +4,7 @@ import json
 
 from pathlib import Path
 
-bible_path = 'bible-master/KJV_bible.json'
+bible_path = 'bible-json/KJV_bible.json'
 
 
 def load_version(version):
